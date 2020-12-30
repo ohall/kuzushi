@@ -14,8 +14,9 @@ $(document).ready(function() {
   var element = document.getElementById('txt-rotate');
   var toRotate = element.getAttribute('data-rotate');
   var period = element.getAttribute('data-period');
+  var delay = element.getAttribute('delay');
   setTimeout(function() {
-    new TxtRotate(element, JSON.parse(toRotate), period);
+    new TxtRotate(element, JSON.parse(toRotate), period, delay);
   }, 1500);
 
   // INJECT CSS
@@ -66,10 +67,11 @@ function fadeOutPreloader(element, duration) {
 
 /* Typing Text */
 
-var TxtRotate = function(el, toRotate, period) {
+var TxtRotate = function(el, toRotate, period, delay) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
+  this.delay = delay;
   this.period = parseInt(period, 10) || 2000;
   this.txt = '';
   this.tick();
@@ -88,7 +90,7 @@ TxtRotate.prototype.tick = function() {
   this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
   var that = this;
-  var delta = 200 - Math.random() * 100;
+  var delta = this.delay - Math.random() * 100;
 
   if (this.isDeleting) {
     delta /= 5;

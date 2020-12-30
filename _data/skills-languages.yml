@@ -5,11 +5,8 @@
 # - name: Language
 #   weight: 5
 
-- name: TypeScript
-  weight: 5
-
 - name: JavaScript
-  weight: 4
+  weight: 5
 
 - name: Python
   weight: 2
@@ -17,10 +14,10 @@
 - name: HTML5
   weight: 4
 
-- name: CSS3
+- name: Bash
   weight: 3
 
-- name: SASS
+- name: CSS
   weight: 3
 
 - name: Java

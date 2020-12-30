@@ -13,21 +13,46 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Sam's Club Scan and Go
+  descr: "Application and platform developer."
+  demo: www.samsclub.com/content/scan-and-go
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
     - tag: Node
+    - tag: HapiJS
+    - tag: Oracle
+    - tag: Kubernetes
+    - tag: Docker
+    - tag: Kafka
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Walmart Labs
+  descr: "Devops engineer"
+  demo: www.walmart.com
   tags:
-    - tag: Python
-    - tag: Django
+    - tag: Node
+    - tag: Git
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Hats and Ladders
+  descr: "Client developer"
+  demo: www.hatsandladders.com
+  tags:
+    - tag: React
+    - tag: Redux
+
+- name: Amplify Education
+  descr: "Client developer"
+  demo: https://amplify.com
+  tags:
+    - tag: AngularJS
+
+- name: Literacy Pro
+  descr: "Client developer"
+  demo: http://teacher.scholastic.com/products/litpro/#/
+  tags:
+    - tag: AngularJS
+
+- name: iRead
+  descr: "Client developer"
+  demo: https://www.hmhco.com/programs/iread
+  tags:
+    - tag: Adobe Flex
+

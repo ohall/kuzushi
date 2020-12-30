@@ -1,17 +1,17 @@
 {
   "particles": {
     "number": {
-      "value": 10,
+      "value": 40,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": ["#dc052d"]
+      "value": ["#9400D3","#4B0082","#0000FF","#00FF00","#FFFF00","#FF7F00","#FF0000"]
     },
     "shape": {
-      "type": "polygon",
+      "type": ["circle", "triangle", "polygon", "star"],
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -24,19 +24,19 @@
       "value": 0.7,
       "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 1,
         "opacity_min": 0.4,
         "sync": false
       }
     },
     "size": {
-      "value": 15,
+      "value": 11,
       "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 4,
-        "size_min": 1,
+        "size_min": 4,
         "sync": false
       }
     },
@@ -45,7 +45,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 2,
       "direction": "bottom",
       "random": true,
       "straight": false,
@@ -62,11 +62,12 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false
+        "enable": true,
+        "mode": ["repulse", "bubble"]
       },
       "onclick": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "grab"
       },
       "resize": true
     },

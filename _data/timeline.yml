@@ -17,45 +17,66 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Sam's Club Scan and Go
+  title-url: www.samsclub.com/content/scan-and-go
+  date: Aug 2017 - Present
+  subtitle: Senior Platform and Application Engineer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Node
+    - tag: HapiJS
+    - tag: Oracle
+    - tag: Kubernetes
+    - tag: Docker
+    - tag: Kafka
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Walmart Labs
+  title-url: www.walmart.com
+  date: Sep 2014 - Nov 2017
+  subtitle: Devops Engineer
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: Node
+    - tag: Git
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Hats and Ladders
+  title-url: www.hatsandladders.com
+  date: 2017
+  subtitle: Front-End Developer
   tags:
     - tag: React
-    - tag: Node
+    - tag: Redux
+    - tag: Javascript
+  timeline-side: left
+
+- title: Amplify Education
+  title-url: https://amplify.com
+  date: 2014
+  subtitle: Front-End Developer
+  tags:
+    - tag: AngularJS
     - tag: Javascript
   timeline-side: right
 
-- title: Super University
+- title: Literacy Pro
+  title-url: http://teacher.scholastic.com/products/litpro/#/
+  date: 2013 - 2014
+  subtitle: Front-End Developer
+  tags:
+    - tag: AngularJS
+    - tag: Javascript
+  timeline-side: right
+
+- title: iRead
+  title-url: https://www.hmhco.com/programs/iread
+  date: 2010 - 2013
+  subtitle: Front-End Developer
+  tags:
+    - tag: Adobe Flex
+  timeline-side: right
+
+- title: Hunter College
   title-url: https://example.com/
-  date: 2014 - 2017
+  date: 2008 - 2010
   subtitle: B.A. Computer Science
   timeline-side: left
