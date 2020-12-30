@@ -18,7 +18,7 @@
 #   timeline-side: right
 
 - title: Sam's Club Scan and Go
-  title-url: www.samsclub.com/content/scan-and-go
+  title-url: https://samsclub.com/content/scan-and-go
   date: Aug 2017 - Present
   subtitle: Senior Platform and Application Engineer
   tags:
@@ -31,7 +31,7 @@
   timeline-side: right
 
 - title: Walmart Labs
-  title-url: www.walmart.com
+  title-url: https://walmart.com
   date: Sep 2014 - Nov 2017
   subtitle: Devops Engineer
   tags:
@@ -40,7 +40,7 @@
   timeline-side: left
 
 - title: Hats and Ladders
-  title-url: www.hatsandladders.com
+  title-url: https://hatsandladders.com
   date: 2017
   subtitle: Front-End Developer
   tags:
@@ -76,7 +76,7 @@
   timeline-side: right
 
 - title: Hunter College
-  title-url: https://example.com/
+  title-url: http://www.hunter.cuny.edu/csci
   date: 2008 - 2010
   subtitle: B.A. Computer Science
   timeline-side: left
