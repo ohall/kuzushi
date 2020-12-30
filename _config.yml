@@ -5,10 +5,9 @@
 title: oakley
 # description: This will be meta HTML tag content. This can be ignored.
 description: Oakley Hall Software Developer
-url: kuzushi.io
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "/"
+baseurl: "kuzushi.io"
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
