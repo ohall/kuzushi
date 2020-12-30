@@ -1,5 +1,7 @@
 # Neumorphism <!-- omit in toc -->
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64d36583-f353-4eb7-b0be-4f101345b656/deploy-status)](https://app.netlify.com/sites/kuzushi/deploys)
+
 > Neumorphism designed Jekyll theme for personal websites, portfolios and resumes.
 
 * Featured on [JAMstack Themes](https://jamstackthemes.dev/theme/jekyll-neumorphism/)
