@@ -5,6 +5,7 @@
 title: oakley
 # description: This will be meta HTML tag content. This can be ignored.
 description: Oakley Hall Software Developer
+url: kuzushi.io
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: "/"
@@ -137,3 +138,12 @@ exclude:
     "node_modules",
     "package.json",
   ]
+
+copy:
+  # Paths to static assets that aren't (S)CSS or JavaScript
+  # because these are completely handled by the sass and javascript tasks
+  assets:
+    # all files below the assets dir
+    - "assets/**/*"
+  dist: "_site/assets/"
+  notification: "Running Copy"
