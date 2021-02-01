@@ -36,8 +36,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I love creating awesome user and developer experinces, making systems work better, automating away toil and battling entropy. Maintainability over cleverness, team success over ego, empathy as a code quality tool.
-
+about_me_description: I love creating awesome user and developer experinces, making systems work better, automating away toil and battling entropy. I believe in maintainability over cleverness, and that simplicity and accessibility are primary goals.
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
